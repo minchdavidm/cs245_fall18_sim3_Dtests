@@ -15,6 +15,7 @@ public class Test_DE_ALUElement
 		aluElem.carryIn.set(false);
 		aluElem.less.set(false);
 
+                aluElem.execute_pass1();
                 aluElem.execute_pass2();
 
                 System.out.printf("aluElem.aluOp.length = %d\n", aluElem.aluOp.length);

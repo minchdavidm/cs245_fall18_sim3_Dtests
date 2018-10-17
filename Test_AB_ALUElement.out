@@ -1,6 +1,5 @@
 aluElem.aluOp.length = 3
 aluElem.aluOp[2, 1, 0] = [false, false, false]
-aluElem.execute_pass2()
 aluElem.bInvert.get() = false
 aluElem.a.get() = false
 aluElem.b.get() = false

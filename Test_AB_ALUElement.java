@@ -15,12 +15,12 @@ public class Test_AB_ALUElement
 		aluElem.carryIn.set(false);
 		aluElem.less.set(false);
 
+                aluElem.execute_pass1();
                 aluElem.execute_pass2();
 
                 System.out.printf("aluElem.aluOp.length = %d\n", aluElem.aluOp.length);
                 System.out.printf("aluElem.aluOp[2, 1, 0] = [%s, %s, %s]\n",
                                    aluElem.aluOp[2].get(), aluElem.aluOp[1].get(), aluElem.aluOp[0].get());
-                System.out.printf("aluElem.execute_pass2()\n");
                 System.out.printf("aluElem.bInvert.get() = %s\n", aluElem.bInvert.get());
                 System.out.printf("aluElem.a.get() = %s\n", aluElem.a.get());
                 System.out.printf("aluElem.b.get() = %s\n", aluElem.b.get());

@@ -1,7 +1,3 @@
-DEBUG: xor_gate.a.get() = true, xor_gate.b.get() = true, xor_gate.out.get() = false
-DEBUG: full_add.a.get() = false, full_add.b.get() = false, full_add.sum.get() = false
-DEBUG: mux_and.out.get() = true, mux_or.out.get() = false, mux_add.out.get() = false,
-       mux_less.out.get() = false, mux_xor.out.get() = false
 aluElem.aluOp.length = 3
 aluElem.aluOp[2, 1, 0] = [false, false, false]
 aluElem.execute_pass2()

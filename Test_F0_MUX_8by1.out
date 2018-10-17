@@ -1,0 +1,5 @@
+mux.control.length = 3
+mux.in.length = 8
+mux.control[2, 1, 0]: [true, true, false]
+mux.in[7, 6, 5, 4, 3, 2, 1, 0]: [false, true, false, false, false, true, true, false]
+mux.out.get() = true

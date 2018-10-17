@@ -1,0 +1,8 @@
+aluUnit.a.length = 2
+aluUnit.result.length = 2
+aluUnit.aluOp[2, 1, 0] = [false, false, true]
+aluUnit.execute_pass2()
+aluUnit.bNegate.get() = false
+aluUnit.a.get() = 1, 1
+aluUnit.b.get() = 0, 1
+aluUnit.result.get() = 1, 1

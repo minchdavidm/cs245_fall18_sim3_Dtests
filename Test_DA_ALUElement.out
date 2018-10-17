@@ -1,0 +1,10 @@
+DEBUG: xor_gate.a.get() = false, xor_gate.b.get() = false, xor_gate.out.get() = false
+DEBUG: full_add.a.get() = false, full_add.b.get() = false, full_add.sum.get() = false
+aluElem.aluOp.length = 3
+aluElem.aluOp[2, 1, 0] = [false, true, true]
+aluElem.execute_pass1()
+aluElem.bInvert.get() = false
+aluElem.a.get() = false
+aluElem.b.get() = false
+aluElem.addResult.get() = false
+aluElem.carryOut.get() = false
